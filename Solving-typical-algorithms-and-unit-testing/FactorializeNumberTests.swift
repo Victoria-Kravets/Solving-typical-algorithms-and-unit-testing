@@ -22,27 +22,27 @@ class FactorializeNumberTests: XCTestCase {
     }
     func testFactorialize(){
         let digit = 5
-        let checkDigit = 120
+        let checkingDigit = 120
         let factorialOfDigit = factorializeNumber.factorialize(digit: digit)
-        XCTAssertEqual(factorialOfDigit, checkDigit)
+        XCTAssertEqual(factorialOfDigit, checkingDigit)
     }
     func testFactorializeCheck2(){
         let digit = 10
-        let checkDigit = 3628800
+        let checkingDigit = 3628800
         let factorialOfDigit = factorializeNumber.factorialize(digit: digit)
-        XCTAssertEqual(factorialOfDigit, checkDigit)
+        XCTAssertEqual(factorialOfDigit, checkingDigit)
     }
     func testFactorializeCheck3(){
         let digit = 20
-        let checkDigit = 2432902008176640000
+        let checkingDigit = 2432902008176640000
         let factorialOfDigit = factorializeNumber.factorialize(digit: digit)
-        XCTAssertEqual(factorialOfDigit, checkDigit)
+        XCTAssertEqual(factorialOfDigit, checkingDigit)
     }
     func testIsFactorialANumber(){
         let digit = 1
-        let checkDigit = 1
+        let checkingDigit = 1
         let factorialOfDigit = factorializeNumber.factorialize(digit: digit)
-        XCTAssertEqual(factorialOfDigit, checkDigit)
+        XCTAssertEqual(factorialOfDigit, checkingDigit)
         XCTAssert(factorialOfDigit is Int)
     }
    

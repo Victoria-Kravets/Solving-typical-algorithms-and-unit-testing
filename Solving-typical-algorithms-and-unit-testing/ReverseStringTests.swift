@@ -23,29 +23,29 @@ class ReverseStringTests: XCTestCase {
     func testIsStringReverse(){
         let word = "hello"
        
-        let checkWord = "olleh"
+        let checkingWord = "olleh"
         let returnWord = reverseString.isStringReverse(word: word)
-        XCTAssertEqual(returnWord, checkWord)
+        XCTAssertEqual(returnWord, checkingWord)
     }
     func testIsWordHowdyReverse(){
         let word = "Howdy"
-        let checkWord = "ydwoH"
+        let checkingWord = "ydwoH"
         let returnWord = reverseString.isStringReverse(word: word)
-        XCTAssertEqual(returnWord, checkWord)
+        XCTAssertEqual(returnWord, checkingWord)
         
 
     }
     func testIsWordGreetingsFromEarthReverse(){
         let word = "Greetings from Earth"
-        let checkWord = "htraE morf sgniteerG"
+        let checkingWord = "htraE morf sgniteerG"
         let returnWord = reverseString.isStringReverse(word: word)
-        XCTAssertEqual(returnWord, checkWord)
+        XCTAssertEqual(returnWord, checkingWord)
        
 
     }
     func testIsReversedWordString(){
         let word = "hello"
-        let checkWord = "olleh"
+        let checkingWord = "olleh"
         let returnWord = reverseString.isStringReverse(word: word)
         XCTAssert(returnWord is String)
     }
