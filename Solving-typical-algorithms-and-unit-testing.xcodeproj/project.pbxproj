@@ -15,6 +15,8 @@
 		755E67321EE9611E002536DB /* MutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E67311EE9611E002536DB /* MutationsTests.swift */; };
 		755E67341EE97C0E002536DB /* FalsyBouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E67331EE97C0E002536DB /* FalsyBouncer.swift */; };
 		755E67361EE97C24002536DB /* FalsyBouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E67351EE97C24002536DB /* FalsyBouncerTests.swift */; };
+		755E67381EE985FD002536DB /* SeekAndDestroy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E67371EE985FD002536DB /* SeekAndDestroy.swift */; };
+		755E673A1EE98613002536DB /* SeekAndDestroyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E67391EE98613002536DB /* SeekAndDestroyTests.swift */; };
 		7571FDA11EE01C2B008CFE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571FDA01EE01C2B008CFE4B /* AppDelegate.swift */; };
 		7571FDA31EE01C2B008CFE4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571FDA21EE01C2B008CFE4B /* ViewController.swift */; };
 		7571FDA61EE01C2B008CFE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7571FDA41EE01C2B008CFE4B /* Main.storyboard */; };
@@ -61,6 +63,8 @@
 		755E67311EE9611E002536DB /* MutationsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutationsTests.swift; sourceTree = "<group>"; };
 		755E67331EE97C0E002536DB /* FalsyBouncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FalsyBouncer.swift; sourceTree = "<group>"; };
 		755E67351EE97C24002536DB /* FalsyBouncerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FalsyBouncerTests.swift; sourceTree = "<group>"; };
+		755E67371EE985FD002536DB /* SeekAndDestroy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeekAndDestroy.swift; sourceTree = "<group>"; };
+		755E67391EE98613002536DB /* SeekAndDestroyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeekAndDestroyTests.swift; sourceTree = "<group>"; };
 		7571FD9D1EE01C2B008CFE4B /* Solving-typical-algorithms-and-unit-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solving-typical-algorithms-and-unit-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7571FDA01EE01C2B008CFE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7571FDA21EE01C2B008CFE4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				755E67311EE9611E002536DB /* MutationsTests.swift */,
 				755E67331EE97C0E002536DB /* FalsyBouncer.swift */,
 				755E67351EE97C24002536DB /* FalsyBouncerTests.swift */,
+				755E67371EE985FD002536DB /* SeekAndDestroy.swift */,
+				755E67391EE98613002536DB /* SeekAndDestroyTests.swift */,
 			);
 			path = "Solving-typical-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 				7571FDA11EE01C2B008CFE4B /* AppDelegate.swift in Sources */,
 				75A07C021EE80D7C00135714 /* TruncateString.swift in Sources */,
 				7579F8831EE1677100589AA7 /* FindLongestWordInString.swift in Sources */,
+				755E67381EE985FD002536DB /* SeekAndDestroy.swift in Sources */,
 				755E672C1EE95597002536DB /* SlasherFlick.swift in Sources */,
 				75E92B921EE057350090F826 /* FactorializeNumber.swift in Sources */,
 				7579F8891EE177FC00589AA7 /* TitleCaseSentence.swift in Sources */,
@@ -311,6 +318,7 @@
 				75A07C041EE80D9300135714 /* TruncateStringTests.swift in Sources */,
 				7571FDB91EE01C2B008CFE4B /* Solving_typical_algorithms_and_unit_testingTests.swift in Sources */,
 				7579F8851EE1678200589AA7 /* FindLongestWordInStringTests.swift in Sources */,
+				755E673A1EE98613002536DB /* SeekAndDestroyTests.swift in Sources */,
 				75E92B901EE0428A0090F826 /* ReverseStringTests.swift in Sources */,
 				75E92B941EE0576B0090F826 /* FactorializeNumberTests.swift in Sources */,
 				75E92B981EE0625D0090F826 /* CheckForPalindromesTests.swift in Sources */,
