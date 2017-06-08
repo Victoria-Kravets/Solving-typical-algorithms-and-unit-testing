@@ -154,12 +154,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Solving-typical-algorithms-and-unit-testing/SeekAndDestroy.swift"
-            timestampString = "518622317.308061"
+            timestampString = "518634380.775868"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
             landmarkName = "destroyer(originalArray:firstElement:secondElement:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Solving-typical-algorithms-and-unit-testing/WhereDoIBelong.swift"
+            timestampString = "518634364.415351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getIndexToIns(originalArray:num:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
