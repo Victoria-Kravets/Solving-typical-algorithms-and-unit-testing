@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		753279DD1EE6E95D004D714F /* ConfirmTheEnding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753279DC1EE6E95D004D714F /* ConfirmTheEnding.swift */; };
 		753279DF1EE6E97F004D714F /* ConfirmTheEndingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753279DE1EE6E97F004D714F /* ConfirmTheEndingTests.swift */; };
+		755E672C1EE95597002536DB /* SlasherFlick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E672B1EE95597002536DB /* SlasherFlick.swift */; };
+		755E672E1EE955BB002536DB /* SlasherFlickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E672D1EE955BB002536DB /* SlasherFlickTests.swift */; };
+		755E67301EE96105002536DB /* Mutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E672F1EE96105002536DB /* Mutations.swift */; };
+		755E67321EE9611E002536DB /* MutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E67311EE9611E002536DB /* MutationsTests.swift */; };
+		755E67341EE97C0E002536DB /* FalsyBouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E67331EE97C0E002536DB /* FalsyBouncer.swift */; };
+		755E67361EE97C24002536DB /* FalsyBouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E67351EE97C24002536DB /* FalsyBouncerTests.swift */; };
 		7571FDA11EE01C2B008CFE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571FDA01EE01C2B008CFE4B /* AppDelegate.swift */; };
 		7571FDA31EE01C2B008CFE4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571FDA21EE01C2B008CFE4B /* ViewController.swift */; };
 		7571FDA61EE01C2B008CFE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7571FDA41EE01C2B008CFE4B /* Main.storyboard */; };
@@ -49,6 +55,12 @@
 /* Begin PBXFileReference section */
 		753279DC1EE6E95D004D714F /* ConfirmTheEnding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmTheEnding.swift; sourceTree = "<group>"; };
 		753279DE1EE6E97F004D714F /* ConfirmTheEndingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmTheEndingTests.swift; sourceTree = "<group>"; };
+		755E672B1EE95597002536DB /* SlasherFlick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlasherFlick.swift; sourceTree = "<group>"; };
+		755E672D1EE955BB002536DB /* SlasherFlickTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlasherFlickTests.swift; sourceTree = "<group>"; };
+		755E672F1EE96105002536DB /* Mutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutations.swift; sourceTree = "<group>"; };
+		755E67311EE9611E002536DB /* MutationsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutationsTests.swift; sourceTree = "<group>"; };
+		755E67331EE97C0E002536DB /* FalsyBouncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FalsyBouncer.swift; sourceTree = "<group>"; };
+		755E67351EE97C24002536DB /* FalsyBouncerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FalsyBouncerTests.swift; sourceTree = "<group>"; };
 		7571FD9D1EE01C2B008CFE4B /* Solving-typical-algorithms-and-unit-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solving-typical-algorithms-and-unit-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7571FDA01EE01C2B008CFE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7571FDA21EE01C2B008CFE4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +158,12 @@
 				75A07C031EE80D9300135714 /* TruncateStringTests.swift */,
 				75A07C071EE81BDD00135714 /* ChunkyMonkey.swift */,
 				75A07C051EE81BD500135714 /* ChunkyMonkeyTests.swift */,
+				755E672B1EE95597002536DB /* SlasherFlick.swift */,
+				755E672D1EE955BB002536DB /* SlasherFlickTests.swift */,
+				755E672F1EE96105002536DB /* Mutations.swift */,
+				755E67311EE9611E002536DB /* MutationsTests.swift */,
+				755E67331EE97C0E002536DB /* FalsyBouncer.swift */,
+				755E67351EE97C24002536DB /* FalsyBouncerTests.swift */,
 			);
 			path = "Solving-typical-algorithms-and-unit-testing";
 			sourceTree = "<group>";
@@ -270,12 +288,15 @@
 				7571FDA11EE01C2B008CFE4B /* AppDelegate.swift in Sources */,
 				75A07C021EE80D7C00135714 /* TruncateString.swift in Sources */,
 				7579F8831EE1677100589AA7 /* FindLongestWordInString.swift in Sources */,
+				755E672C1EE95597002536DB /* SlasherFlick.swift in Sources */,
 				75E92B921EE057350090F826 /* FactorializeNumber.swift in Sources */,
 				7579F8891EE177FC00589AA7 /* TitleCaseSentence.swift in Sources */,
 				7571FDA91EE01C2B008CFE4B /* Solving_typical_algorithms_and_unit_testing.xcdatamodeld in Sources */,
+				755E67341EE97C0E002536DB /* FalsyBouncer.swift in Sources */,
 				75E92B961EE062410090F826 /* CheckForPalindromes.swift in Sources */,
 				753279DD1EE6E95D004D714F /* ConfirmTheEnding.swift in Sources */,
 				75A07C081EE81BDD00135714 /* ChunkyMonkey.swift in Sources */,
+				755E67301EE96105002536DB /* Mutations.swift in Sources */,
 				75A07BFE1EE8095A00135714 /* RepeatString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755E67321EE9611E002536DB /* MutationsTests.swift in Sources */,
+				755E672E1EE955BB002536DB /* SlasherFlickTests.swift in Sources */,
+				755E67361EE97C24002536DB /* FalsyBouncerTests.swift in Sources */,
 				75A07C041EE80D9300135714 /* TruncateStringTests.swift in Sources */,
 				7571FDB91EE01C2B008CFE4B /* Solving_typical_algorithms_and_unit_testingTests.swift in Sources */,
 				7579F8851EE1678200589AA7 /* FindLongestWordInStringTests.swift in Sources */,

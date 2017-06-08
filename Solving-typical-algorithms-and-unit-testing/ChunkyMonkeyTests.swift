@@ -25,7 +25,7 @@ class ChunkyMonkeyTests: XCTestCase {
         let originalArray = ["a", "b", "c", "d"]
         let size = 2
         let checkingDoubleArray : Array<Array<String>> = [["a", "b"], ["c", "d"]]
-        let resultDoubleArray : Array<Array<String>> = chunkyMonkey.chunkArrayInGroupsForString(originalArray: originalArray, size: size)
+        let resultDoubleArray : Array<Array<String>> = chunkyMonkey.chunkArrayInGroups(originalArray: originalArray, size: size)
         XCTAssertEqual(resultDoubleArray[0], ["a", "b"])
         XCTAssertEqual(resultDoubleArray[1], ["c", "d"])
     }
@@ -33,15 +33,15 @@ class ChunkyMonkeyTests: XCTestCase {
         let originalArray = [0, 1, 2, 3, 4, 5]
         let size = 3
         let checkingDoubleArray : Array<Array<Int>> = [[0, 1, 2], [3, 4, 5]]
-        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroupsForInt(originalArray: originalArray, size: size)
+        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroups(originalArray: originalArray, size: size)
         XCTAssertEqual(resultDoubleArray[0], checkingDoubleArray[0])
         XCTAssertEqual(resultDoubleArray[1], checkingDoubleArray[1])
     }
     func testChunkArrayInGroupsCheck3(){
         let originalArray = [0, 1, 2, 3, 4, 5]
         let size = 2
-        let checkingDoubleArray : Array<Array<Int>> = [[0, 1], [2, 3], [4, 5]]
-        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroupsForInt(originalArray: originalArray, size: size)
+        let checkingDoubleArray  = [[0, 1], [2, 3], [4, 5]]
+        let resultDoubleArray = chunkyMonkey.chunkArrayInGroups(originalArray: originalArray, size: size)
         XCTAssertEqual(resultDoubleArray[0], checkingDoubleArray[0])
         XCTAssertEqual(resultDoubleArray[1], checkingDoubleArray[1])
         XCTAssertEqual(resultDoubleArray[2], checkingDoubleArray[2])
@@ -51,7 +51,7 @@ class ChunkyMonkeyTests: XCTestCase {
         let originalArray = [0, 1, 2, 3, 4, 5]
         let size = 4
         let checkingDoubleArray : Array<Array<Int>> = [[0, 1, 2, 3], [4, 5]]
-        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroupsForInt(originalArray: originalArray, size: size)
+        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroups(originalArray: originalArray, size: size)
         XCTAssertEqual(resultDoubleArray[0], checkingDoubleArray[0])
         XCTAssertEqual(resultDoubleArray[1], checkingDoubleArray[1])
         
@@ -61,7 +61,7 @@ class ChunkyMonkeyTests: XCTestCase {
         let originalArray = [0, 1, 2, 3, 4, 5, 6]
         let size = 3
         let checkingDoubleArray : Array<Array<Int>> = [[0, 1, 2], [3, 4, 5], [6]]
-        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroupsForInt(originalArray: originalArray, size: size)
+        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroups(originalArray: originalArray, size: size)
         XCTAssertEqual(resultDoubleArray[0], checkingDoubleArray[0])
         XCTAssertEqual(resultDoubleArray[1], checkingDoubleArray[1])
         XCTAssertEqual(resultDoubleArray[2], checkingDoubleArray[2])
@@ -71,7 +71,7 @@ class ChunkyMonkeyTests: XCTestCase {
         let originalArray = [0, 1, 2, 3, 4, 5, 6, 7, 8]
         let size = 4
         let checkingDoubleArray : Array<Array<Int>> = [[0, 1, 2, 3], [4, 5, 6, 7], [8]]
-        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroupsForInt(originalArray: originalArray, size: size)
+        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroups(originalArray: originalArray, size: size)
         XCTAssertEqual(resultDoubleArray[0], checkingDoubleArray[0])
         XCTAssertEqual(resultDoubleArray[1], checkingDoubleArray[1])
         XCTAssertEqual(resultDoubleArray[2], checkingDoubleArray[2])
@@ -81,7 +81,7 @@ class ChunkyMonkeyTests: XCTestCase {
         let originalArray = [0, 1, 2, 3, 4, 5, 6, 7, 8]
         let size = 2
         let checkingDoubleArray : Array<Array<Int>> = [[0, 1], [2, 3], [4, 5], [6, 7], [8]]
-        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroupsForInt(originalArray: originalArray, size: size)
+        let resultDoubleArray : Array<Array<Int>> = chunkyMonkey.chunkArrayInGroups(originalArray: originalArray, size: size)
         XCTAssertEqual(resultDoubleArray[0], checkingDoubleArray[0])
         XCTAssertEqual(resultDoubleArray[1], checkingDoubleArray[1])
         XCTAssertEqual(resultDoubleArray[2], checkingDoubleArray[2])
